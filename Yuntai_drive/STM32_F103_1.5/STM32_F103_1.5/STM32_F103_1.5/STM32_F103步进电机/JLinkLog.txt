@@ -1,0 +1,65 @@
+T138C 000:012.530   SEGGER J-Link V6.86 Log File
+T138C 000:012.656   DLL Compiled: Sep 24 2020 17:31:31
+T138C 000:012.670   Logging started @ 2020-12-21 07:40
+T138C 000:012.683 - 12.690ms
+T138C 000:012.700 JLINK_SetWarnOutHandler(...)
+T138C 000:012.715 - 0.021ms
+T138C 000:012.729 JLINK_OpenEx(...)
+T138C 000:016.260   Firmware: J-Link V9 compiled Dec 13 2019 11:14:50
+T138C 000:016.526   Decompressing FW timestamp took 193 us
+T138C 000:026.414   Hardware: V9.40
+T138C 000:026.478   S/N: 59409360
+T138C 000:026.497   OEM: SEGGER
+T138C 000:026.516   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T138C 000:028.784   TELNET listener socket opened on port 19021
+T138C 000:029.317   WEBSRV Starting webserver
+T138C 000:030.239   WEBSRV Webserver running on local port 19080
+T138C 000:030.277 - 17.555ms returns "O.K."
+T138C 000:030.305 JLINK_GetEmuCaps()
+T138C 000:030.320 - 0.021ms returns 0xB9FF7BBF
+T138C 000:030.338 JLINK_TIF_GetAvailable(...)
+T138C 000:032.653 - 2.347ms
+T138C 000:032.702 JLINK_SetErrorOutHandler(...)
+T138C 000:032.716 - 0.020ms
+T138C 000:032.736 JLINK_ExecCommand("ProjectFile = "C:\Users\Administrator\Desktop\STM32_F103_1.3\STM32_F103_1.3\STM32_F103_1.3\STM32_F103步进电机\JLinkSettings.ini"", ...). 
+T138C 000:044.067 - 11.356ms returns 0x00
+T138C 000:050.255 JLINK_ExecCommand("Device = STM32F103RC", ...). 
+T138C 000:064.138   Device "STM32F103RC" selected.
+T138C 000:064.783 - 14.484ms returns 0x00
+T138C 000:064.819 JLINK_GetHardwareVersion()
+T138C 000:064.833 - 0.020ms returns 94000
+T138C 000:064.848 JLINK_GetDLLVersion()
+T138C 000:064.861 - 0.019ms returns 68600
+T138C 000:064.876 JLINK_GetOEMString(...)
+T138C 000:064.891 JLINK_GetFirmwareString(...)
+T138C 000:064.904 - 0.019ms
+T138C 000:072.642 JLINK_GetDLLVersion()
+T138C 000:072.688 - 0.053ms returns 68600
+T138C 000:072.704 JLINK_GetCompileDateTime()
+T138C 000:072.717 - 0.019ms
+T138C 000:076.152 JLINK_GetFirmwareString(...)
+T138C 000:076.198 - 0.052ms
+T138C 000:081.299 JLINK_GetHardwareVersion()
+T138C 000:081.337 - 0.044ms returns 94000
+T138C 000:083.834 JLINK_GetSN()
+T138C 000:083.873 - 0.046ms returns 59409360
+T138C 000:086.129 JLINK_GetOEMString(...)
+T138C 000:090.728 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T138C 000:092.883 - 2.182ms returns 0x00
+T138C 000:092.926 JLINK_HasError()
+T138C 000:092.943 JLINK_SetSpeed(2000)
+T138C 000:093.383 - 0.456ms
+T138C 000:093.830 JLINK_GetId()
+T138C 000:519.499   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T138C 000:676.504   
+  ***** Error: 
+T138C 000:676.587   STM32: Connecting to CPU via connect under reset failed.
+T138C 000:911.991   STM32 (connect): Can not attach to CPU. Trying connect under reset.
+T138C 001:068.452   
+  ***** Error: 
+T138C 001:068.509   STM32: Connecting to CPU via connect under reset failed.
+T138C 001:118.484 - 1024.698ms returns 0x00000000
+T138C 010:281.152 JLINK_Close()
+T138C 010:285.980 - 4.857ms
+T138C 010:286.017   
+T138C 010:286.031   Closed
